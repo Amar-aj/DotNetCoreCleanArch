@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{8BA53A37-E3BA-4706-853A-DAF79589024E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{D13E3BDB-32DB-4E33-A681-6FD54D02F5B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{1231DCD2-2C77-47CB-83E1-FE321FB71F86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebUI", "WebUI", "{824665FF-91DD-429B-8EA2-4F9674FF0324}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{3E4A80A7-9355-45BB-A2F2-919CF6BA8BFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModels", "ViewModels\ViewModels.csproj", "{4A563B7D-5CA3-416E-8938-558C5A6FCA04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3E4A80A7-9355-45BB-A2F2-919CF6BA8BFD} = {8BA53A37-E3BA-4706-853A-DAF79589024E}
+		{4A563B7D-5CA3-416E-8938-558C5A6FCA04} = {8BA53A37-E3BA-4706-853A-DAF79589024E}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E4A80A7-9355-45BB-A2F2-919CF6BA8BFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E4A80A7-9355-45BB-A2F2-919CF6BA8BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E4A80A7-9355-45BB-A2F2-919CF6BA8BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E4A80A7-9355-45BB-A2F2-919CF6BA8BFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A563B7D-5CA3-416E-8938-558C5A6FCA04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A563B7D-5CA3-416E-8938-558C5A6FCA04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A563B7D-5CA3-416E-8938-558C5A6FCA04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A563B7D-5CA3-416E-8938-558C5A6FCA04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
